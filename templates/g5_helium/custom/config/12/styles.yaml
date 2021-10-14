@@ -1,0 +1,6 @@
+preset: preset1
+navigation:
+  background: '#24427a'
+  text-color: '#ffffff'
+footer:
+  background: '#24427a'

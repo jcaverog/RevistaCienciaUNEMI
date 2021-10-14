@@ -1,0 +1,145 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: default
+  timestamp: 1634011015
+layout:
+  /navigation/:
+    -
+      - system-messages-7972
+    -
+      - 'logo-9608 15'
+      - 'menu-6409 70'
+      - 'menu-6355 15'
+  /header/: {  }
+  /intro/: {  }
+  /features/: {  }
+  /utility/: {  }
+  /above/: {  }
+  /testimonials/: {  }
+  /expanded/: {  }
+  /container-main/:
+    -
+      -
+        'aside 25':
+          -
+            - position-position-4734
+      -
+        'mainbar 50':
+          -
+            - system-content-1587
+      -
+        'sidebar 25':
+          -
+            - position-position-3949
+  /footer/:
+    -
+      - 'spacer-7994 5'
+      - 'logo-9571 10'
+      - 'copyright-1736 20'
+      - 'custom-3929 23'
+      - 'custom-6686 22'
+      - 'totop-8670 15'
+      - 'spacer-5419 5'
+  /offcanvas/:
+    -
+      - mobile-menu-5697
+structure:
+  navigation:
+    type: section
+    attributes:
+      boxed: ''
+  header:
+    attributes:
+      boxed: ''
+      class: ''
+  intro:
+    type: section
+    attributes:
+      boxed: ''
+  features:
+    type: section
+    attributes:
+      boxed: ''
+  utility:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+  above:
+    type: section
+    attributes:
+      boxed: ''
+  testimonials:
+    type: section
+    attributes:
+      boxed: ''
+  expanded:
+    type: section
+    attributes:
+      boxed: ''
+  aside:
+    attributes:
+      class: ''
+    block:
+      fixed: '1'
+  mainbar:
+    type: section
+    subtype: main
+  sidebar:
+    type: section
+    subtype: aside
+    attributes:
+      class: ''
+    block:
+      fixed: '1'
+  container-main:
+    attributes:
+      boxed: ''
+  footer:
+    attributes:
+      boxed: '3'
+      class: ''
+      variations: ''
+  offcanvas:
+    attributes:
+      boxed: ''
+content:
+  logo-9608:
+    title: 'Logo / Image'
+    attributes:
+      image: 'gantry-media://imagen/logo4.png'
+      svg: ''
+  menu-6355:
+    attributes:
+      menu: mainmenu
+  position-position-4734:
+    title: Aside
+    attributes:
+      key: aside
+  position-position-3949:
+    title: Sidebar
+    attributes:
+      key: sidebar
+  logo-9571:
+    title: 'Logo / Image'
+    attributes:
+      image: 'gantry-media://imagen/logo4.png'
+      svg: ''
+  copyright-1736:
+    attributes:
+      date:
+        start: '2020'
+      owner: 'Jessica Guerra'
+      additional:
+        text: 'Desarrollado por jguerrag7 exclusivamente<br />para Revista Científica Journal UNEMI 2.0.'
+  custom-3929:
+    title: 'Custom HTML'
+    attributes:
+      html: '<p><b>UNIVERSIDAD ESTATAL DE MIALGRO <BR> ( UNEMI )</b></p>'
+  custom-6686:
+    title: 'Custom HTML'
+    attributes:
+      html: "<p><b>Dirección:</b> kilometro 1 1/2 Via, Milagro </p>\n<p><b>Teléfono: </b>(04) 271-5079 </p>\n<p><b>Rector: Dr.</b> Fabricio Guevara Viejó </p>"
+  totop-8670:
+    title: 'To Top'

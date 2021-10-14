@@ -1,0 +1,214 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: home_-_particles
+  timestamp: 1634011015
+layout:
+  /navigation/: {  }
+  /header/:
+    -
+      - owlcarousel-2455
+  /intro/:
+    -
+      - custom-5807
+  /features/:
+    -
+      - custom-3119
+  /utility/:
+    -
+      - contenttabs-3854
+  /above/:
+    -
+      - contentcubes-7850
+  /testimonials/:
+    -
+      - custom-7658
+    -
+      - custom-1900
+  /expanded/:
+    -
+      - custom-6355
+  /container-main/:
+    -
+      -
+        'mainbar 75': {  }
+      -
+        'sidebar 25': {  }
+  footer: {  }
+  offcanvas: {  }
+structure:
+  navigation:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+      variations: ''
+    inherit:
+      outline: default
+      include:
+        - children
+  header:
+    attributes:
+      boxed: ''
+      class: g-flushed
+  intro:
+    type: section
+    attributes:
+      boxed: ''
+  features:
+    type: section
+    attributes:
+      boxed: ''
+  utility:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+      variations: ''
+  above:
+    type: section
+    attributes:
+      boxed: ''
+  testimonials:
+    type: section
+    attributes:
+      boxed: '2'
+      class: ''
+      variations: ''
+  expanded:
+    type: section
+    attributes:
+      boxed: '3'
+      class: ''
+      variations: ''
+  mainbar:
+    type: section
+    subtype: main
+  sidebar:
+    type: section
+    subtype: aside
+  container-main:
+    attributes:
+      boxed: ''
+  footer:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
+  offcanvas:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
+content:
+  owlcarousel-2455:
+    title: 'Carrusel de búhos'
+    attributes:
+      items:
+        -
+          class: ''
+          image: 'gantry-media://header/img01.jpg'
+          title: 'Revista Científica Journal UNEMI 2.0'
+          desc: 'La Revista Científica Journal UNEMI es una revista científica indizada y arbitrada, de publicación cuatrimestral. Dirigida a la población universitaria, que publica principalmente trabajos originales de investigación científica, ensayos y comunicaciones originales preferentemente en las áreas prioritarias de la revista.'
+          link: 'http://revista.aviacionguayaquil.com/ojs/index.php/unemi/index'
+          linktext: 'Enviar un artículo'
+          buttonclass: button-outline
+          disable: '0'
+          name: 'Item 1'
+        -
+          class: ''
+          image: 'gantry-media://header/img02.jpg'
+          title: 'Revista Científica Journal UNEMI 2.0'
+          desc: 'Su objetivo es divulgar las realizaciones científicas y tecnológicas  de la UNEMI, así como las que se realicen en otras universidades y centros de investigación en el país y en el exterior, en las áreas relacionadas con Industrial; Tecnología, Informática y Comunicación; Administración y Gerencia; Ciencias naturales y exactas; Salud Pública y Educación y Cultura'
+          link: 'http://revista.aviacionguayaquil.com/ojs/index.php/unemi/index'
+          linktext: 'Enviar un artículo'
+          buttonclass: button-outline
+          disable: '0'
+          name: 'Item 2'
+  custom-5807:
+    title: Intro
+    attributes:
+      html: "<div class=\"fp-intro\">\n    <h2 class=\"g-title\">ECUADOR ES CALIDAD</h2>\n    <p>Revista Científica Journal UNEMI 2.0 es una revista científica arbitrada, que utiliza el sistema de evaluación externa por expertos (peer-review), bajo la modalidad doble ciego (double-blind review). Se encuentra indizada en el catálogo LATINDEX, Sistema Regional de información en Línea para Revistas Científicas de América Latina, El Caribe, España y Portugal, es parte del directorio del DOAJ (Directory of Open Access Journals) y conforma la Matriz de Información para el Análisis de Revistas, MIAR. Los mejores trabajos estarán indizada en SCOPUS, Sistemas Internacionales de información en Línea.</p>\n<div class=\"ipad-mockup\">\n       <img src=\"gantry-media://imagen/img2.png\" alt=\"\" />\n    </div>\n</div>"
+    block:
+      variations: center
+  custom-3119:
+    title: Características
+    attributes:
+      html: "<div class=\"fp-features\">\n    <div class=\"g-grid\">\n        <div class=\"g-block size-33-3\">\n            <div class=\"card\">\n                <div class=\"card-block\">\n\t\t\t\t\t<a href=\"http://revista.aviacionguayaquil.com/ojs/index.php/unemi/index\"><i class=\"fa fa-book fab fab-book\"></i></a>\n                    <h4 class=\"card-title\">Revistas</h4>\n                    <p class=\"card-text\">La Revista Científica Journal UNEMI 2.0 convoca a los investigadores que deseen participar en su edición número 01. Los lineamientos para presentar sus artículos pueden ser consultados en la sección de Envió de Trabajos. Los artículos son recibidos durante todo el año o a través de las convocatorias semestrales a través del sistema Open Journal System (OJS). </p>\n                </div>\n            </div>\n        </div>\n        <div class=\"g-block size-33-3\">\n            <div class=\"card\">\n                <div class=\"card-block\">\n\t\t\t\t\t<a href=\"http://revista.aviacionguayaquil.com/ojs/index.php/unemi/index\"><i class=\"fa fa-university fab fab-university\"></i></a>\n                    <h4 class=\"card-title\">Congresos</h4>\n                    <p class=\"card-text\">Este evento es el espacio propicio para identificar, debatir, difundir, reflexionar y valorar los aportes científicos y prospectivos desde la teoría y la praxis, cuyos aspectos deben ser considerados en la interrelación de la universidad con su entorno político, económico, social, tecnológico y ambiental como factores claves para la evolución, transformación y consolidación de la Sociedad del Conocimiento..</p>\n                </div>\n            </div>\n        </div>\n        <div class=\"g-block size-33-3\">\n            <div class=\"card\">\n                <div class=\"card-block\">\n\t\t\t\t\t<a href=\"http://revista.aviacionguayaquil.com/ojs/index.php/unemi/index\"><i class=\"fa fa-bullhorn fab fab-bullhorn\"></i></a>\n                    <h4 class=\"card-title\">Conferencias</h4>\n                    <p class=\"card-text\">En esta sección se encuentran conferencias científicas para el envío de artículos de investigación, estados del arte en temas de actualidad en computación, temas de interés industrial o académico, entre otros.</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>"
+    block:
+      variations: center
+  contenttabs-3854:
+    title: 'Fichas de contenido'
+    attributes:
+      items:
+        -
+          content: "<p>Las planeación de líneas de investigación se definen en cinco líneas; bajo las cuales se desarrollará la actividad académica y de investigación \nde los docentes y estudiantes de las universidades</p>\n<div class=\"g-grid size-100\">\n    <div class=\"g-block size-50\">\n        <ul>\n            <li>Computación y Telecomunicaciones</li>\n\t\t\t<li>Tecnología en Innovación para la Sociedad</li>\n            <li>Desarrollo local y empresarial</li>\n            <li>Desarrollo Productivo</li>\n\t\t\t<li>Medio ambiente y recursos naturales</li>\n\t\t\t<li>Marketing, Consumo y Sociedad</li>\n\t\t\t<li>Inteligencia Artificial</li>\n        </ul>\n    </div>\n    <div class=\"g-block size-50\">\n        <ul>\n            <li>Salud pública</li>\n\t\t\t<li>Bienestar humano Integral</li>\n            <li>Sociedad de la información: gestión, medios y tecnología</li>\n            <li>Desarrollo Sostenible</li>\n\t\t\t<li>Ciencias sociales y del buen vivir</li>\n\t\t\t<li>Comunicación y Tendencias en la Información</li>\n\t\t\t<li>Construcción</li>\n        </ul>\n    </div>\n</div>"
+          title: 'Linea de Investigación'
+        -
+          content: "<p> La Revista Cienrifica Journal UNEMI 2.0 está indexada en las siguentes bases de datos y sistemas de información cientificas: </p>\n<div class=\"g-grid size-100\">\n    <div class=\"g-block size-50\">\n\t<h4> Bases de datos </h4>\n        <ul>\n            <li>SciELO</li>\n            <li>Academic Journal Database</li>\n            <li>MIAR</li>\n            <li>PROQUEST</li>\n\t\t\t<li>Publindex Categoría B</li>\n        </ul>\n    </div>\n    <div class=\"g-block size-50\">\n\t<h4> Catálogos, Directorios y Repositorios </h4>\n        <ul>\n\t\t\n            <li>LATINDEX</li>\n\t\t\t<li>Scopus</li>\n            <li>DOAJ Directory of Open Access Journals</li>\n            <li>Dialnet</li>\n            <li>Google Scholar</li>\n        </ul>\n    </div>\n</div>"
+          title: Indexaciones
+  contentcubes-7850:
+    title: 'Cubos de contenido'
+    attributes:
+      items:
+        -
+          image: 'gantry-media://imagen/img6.jpg'
+          imageposition: left
+          label: Reconocimientos
+          title: 'La Universidad Estatal de milagro gano el premio al "mejor grupo de investigación" en  Estados Unidos, 2019'
+          tags:
+            -
+              icon: 'fa fa-tag'
+              link: '#'
+              target: _self
+              text: UNEMI
+            -
+              icon: 'fa fa-tag'
+              link: '#'
+              target: _self
+              text: Photo
+          link: ''
+          linktext: '&rarr;'
+          buttonclass: ''
+          buttontarget: _self
+          name: 'Item 1'
+        -
+          image: 'gantry-media://imagen/img5.jpg'
+          imageposition: right
+          label: Galardones
+          title: 'La Universidad Estatal de Milagro participa en los Galardones realizado por la Senescyt, 2021'
+          tags:
+            -
+              icon: 'fa fa-tag'
+              link: '#'
+              target: _self
+              text: UNEMI
+            -
+              icon: 'fa fa-tag'
+              link: '#'
+              target: _self
+              text: Photo
+          link: ''
+          linktext: '&rarr;'
+          buttonclass: ''
+          buttontarget: _self
+          name: 'Item 2'
+  custom-7658:
+    title: 'Recomendaciones de clientes'
+    attributes:
+      enabled: 0
+      html: "<div class=\"fp-features\">\n    <div class=\"g-grid\">\n        <div class=\"g-block size-33-3\">\n            <div class=\"card\">\n                <div class=\"card-block\">\n\t\t\t\t<img src=\"gantry-media://testimonials/face.jpg\" alt=\"Avatar\" class=\"g-img-circle\" height=\"80\" width=\"80\">\n                    <h4 class=\"card-title\">Revistas</h4>\n                    <p class=\"card-text\">Los artículos son recibidos durante todo el año o a través de las convocatorias semestrales efectuadas por el Consejo Editorial a través del sistema Open Journal System (OJS), los cuales se someten al sistema de arbitraje de doble ciego, los revisores cuentan con un formato de evaluación de rúbricas para valorar los mismos; donde se consideran tres áreas de revisión: comunicación, pensamiento crítico y contenido</p>\n                </div>\n            </div>\n        </div>\n        <div class=\"g-block size-33-3\">\n            <div class=\"card\">\n                <div class=\"card-block\">\n\t\t\t\t<img src=\"gantry-media://testimonials/face.jpg\" alt=\"Avatar\" class=\"g-img-circle\" height=\"80\" width=\"80\">\n                    <h4 class=\"card-title\">Congresos</h4>\n                    <p class=\"card-text\">Este evento es el espacio propicio para identificar, debatir, difundir, reflexionar y valorar los aportes científicos y prospectivos desde la teoría y la praxis, cuyos aspectos deben ser considerados en la interrelación de la universidad con su entorno político, económico, social, tecnológico y ambiental como factores claves para la evolución, transformación y consolidación de la Sociedad del Conocimiento..</p>\n                </div>\n            </div>\n        </div>\n        <div class=\"g-block size-33-3\">\n            <div class=\"card\">\n                <div class=\"card-block\">\n\t\t\t\t<img src=\"gantry-media://testimonials/face.jpg\" alt=\"Avatar\" class=\"g-img-circle\" height=\"80\" width=\"80\">\n                    <h4 class=\"card-title\">Conferencias</h4>\n                    <p class=\"card-text\">En esta sección se encuentran conferencias científicas para el envío de artículos de investigación, estados del arte en temas de actualidad en computación, temas de interés industrial o académico, entre otros.</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>\n"
+    block:
+      variations: center
+  custom-1900:
+    title: 'HTML personalizado'
+    attributes:
+      html: '<h2 align="center" >Comité de la Revista Científica Journal UNEMI 2.0</h2>'
+  custom-6355:
+    title: 'Desarrolle temas de CMS rápidamente'
+    attributes:
+      html: "<div class=\"fp-multi-column-text\">\n    <div class=\"g-grid\">\n        <div class=\"g-block size-48\">\n\t\t\t\t<h3> Comité Científico Internacional </h3>\n\t\t\t\t\t<ul>\n\t\t\t\t\t\t<li>Dr. Eugenio Pellicer Armiñana, Doctor Ingeniero en Caminos, Canales y Puertos, Universidad Politécnica de Valencia, España</li>\n\t\t\t\t\t\t<li>Dr. Óscar Nieto Palmeiro, Doctor en Ciencias. Sección Químicas, Universidad de Vigo, España</li>\n\t\t\t\t\t\t<li>Msc. Josmel Pacheco Mendoza, Master en Gestión de la Información y el Conocimiento, Universidad San Ingnacio de Loyola, Perú</li>\n\t\t\t\t\t\t<li>Dra. Verónica Arancibia Moya, Doctor en Ciencias Exactas con mención en Química, Pontificia Católica Universidad de Chile, Chile</li>\n\t\t\t\t\t\t<li>Dra. Luisa Calvo Hernández, Doctor en Ciencias. Sección Químicas, Universidad Autónoma de Madrid, España</li>\n\t\t\t\t\t</ul>\n        </div>\n\t\t<div class=\"g-block size-4\">\n\t\t\t\t\n        </div>\n        <div class=\"g-block size-48\">\n\t\t\t\t<h3> Consejo Editorial </h3>\n\t\t\t\t\t<ul>\n\t\t\t\t\t\t<li>Dr. Antonio Rodríguez Antalejo, Doctor en Medicia y Cirugía, Universidad de Complutense de Madrid, España</li>\n\t\t\t\t\t\t<li>Dr. Antonio Roldán-Ponce, PhD Economía, Fachhochschule Dresden, Alemania</li>\n\t\t\t\t\t\t<li>Dra. Cheryl Martens, PhD in Sociology, University of Manchester, Inglaterra</li>\n\t\t\t\t\t\t<li>Dr. Ernesto Vivares, PhD in Politics (International Political Economy), University of Birmingham, Inglaterra</li>\n\t\t\t\t\t\t<li>Dr. José Galindo Duarte, PhD en Ciencias de la información y computación, Universidad de Sevilla, España</li>\n\t\t\t\t\t</ul>\n        </div>\n    </div>\n</div>"
+    block:
+      variations: title-center

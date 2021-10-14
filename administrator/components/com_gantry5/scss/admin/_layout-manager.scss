@@ -232,8 +232,9 @@ $atom: #9055AF;
                 }
 
                 &:not(:empty):not(.no-hover):before {
-                    font-family: FontAwesome, sans-serif;
-                    content: "\f0c9";
+                    font-family: "Font Awesome 5 Pro", "Font Awesome 5 Free";
+                    font-weight: 900;
+                    content: $fa-bars;
                     border-radius: 3px 0 0 3px;
                     left: -21px;
                     cursor: move;
@@ -241,8 +242,9 @@ $atom: #9055AF;
                 }
 
                 &:not(:empty):not(.no-hover):not(.no-gear):after {
-                    font-family: FontAwesome, sans-serif;
-                    content: "\f0db";
+                    font-family: "Font Awesome 5 Pro", "Font Awesome 5 Free";
+                    font-weight: 900;
+                    content: $fa-columns;
                     border-radius: 0 3px 3px 0;
                     right: -21px;
                     border-left: 0 !important;
